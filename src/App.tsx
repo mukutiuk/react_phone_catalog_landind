@@ -1,21 +1,18 @@
-import React from 'react';
+import { Outlet } from 'react-router-dom';
+import { useAppDispatch } from './modules/shared/hooks/hooks';
+import { useEffect } from 'react';
+import * as productAction from './features/ProductSlice';
 import './App.scss';
+export const App = () => {
+  const dispatch = useAppDispatch();
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+  useEffect(() => {
+    dispatch(productAction.fetchProduct());
+  }, [dispatch]);
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
-
-export const App: React.FC = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className="App" id="nuv">
+      <Outlet />
     </div>
   );
 };
