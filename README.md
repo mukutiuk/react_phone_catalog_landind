@@ -1,8 +1,8 @@
   - [DEMO;](https://mukutiuk.github.io/react_phone_catalog_landind/)
 
-  - [GITHUB;] (https://github.com/mukutiuk)
+  - [GITHUB;](https://github.com/mukutiuk)
 
-  - [MOCKUP] (https://www.figma.com/design/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original?node-id=0-1&t=JzHSBkJzvLCdsZtm-0)
+  - [MOCKUP;](https://www.figma.com/design/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original?node-id=0-1&t=JzHSBkJzvLCdsZtm-0)
 
 
     Technologies were used:
@@ -19,7 +19,7 @@
 
     Github flow
 
-  Clone the repository from GitHub by running the following command in your terminal: git clone [repository_url]
-  Navigate to the project directory: cd path/to/folder
-  Install the necessary dependencies using npm or yarn: npm install or yarn install
-  Start the development server by running: npm start or yarn start.
+    Clone the repository from GitHub by running the following command in your terminal: git clone [repository_url]
+    Navigate to the project directory: cd path/to/folder
+    Install the necessary dependencies using npm or yarn: npm install or yarn install
+    Start the development server by running: npm start or yarn start.
