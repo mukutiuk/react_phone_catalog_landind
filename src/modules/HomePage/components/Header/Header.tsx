@@ -26,7 +26,7 @@ export const Header: React.FC = ({}) => {
 
   useEffect(() => {
     dispatch(productAction.fetchProduct());
-  }, [pathname, dispatch]);
+  }, [pathname, dispatch, debounce]);
 
   useEffect(() => {
     setIsOpenMenu(true);
