@@ -35,7 +35,7 @@ export const ProductCart = () => {
       ) : (
         <div className={styles.page}>
           <img
-            src="/img/cart-is-empty.png"
+            src="./img/cart-is-empty.png"
             className={styles.page__img}
             alt="img"
           />

@@ -96,7 +96,7 @@ export const ProductCartDetails = () => {
       <div className={styles.cart__wraper}>
         <h2 className={styles.cart__total}>{`$${fullPrice}`}</h2>
         <span className={styles.cart__item}>
-          {`Total for ${fullItem} items`}
+          {`Total for ${fullItem} ${fullItem > 1 ? 'items' : 'item'}`}
         </span>
 
         <div className={styles.cart__line}></div>
